@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="encabezado">
+            <h1>Task Tracker</h1>
+            <p>Organiza tus tareas y mantén todo bajo control.</p>
+        </div>
+
+        <div class="formulario">
+            <input 
+                type="text" 
+                id="entradaTarea" 
+                placeholder="Escribe una nueva tarea..."
+            >
+            <button id="botonAgregar">+ Agregar</button>
+        </div>
+
+        <div class="informacion">
+            <h2>Mis tareas</h2>
+            <span id="contador">0 tareas</span>
+        </div>
+
+        <ul id="listaTareas">
+            <!-- Las tareas aparecerán aquí -->
+        </ul>
+
+        <div id="mensajeVacio" class="mensaje-vacio">
+            <span>📝</span>
+            <p>No tienes tareas todavía.</p>
+            <small>Agrega una tarea para comenzar.</small>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
